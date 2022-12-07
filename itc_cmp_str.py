@@ -6,7 +6,7 @@ def itc_cmp_str(str1, str2, num):
     for i in str2:
         cnt2 += 1
     if str2 == '':
-        return str
+        return str1
     elif cnt2 > cnt1:
         s = str1[:num] + str2[:cnt1-num]
         return s
