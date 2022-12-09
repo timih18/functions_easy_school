@@ -16,4 +16,3 @@ def itc_max_char_on_end(string):
         if cnt > m:
             m = cnt
     return m
-print(itc_max_char_on_end(input()))
