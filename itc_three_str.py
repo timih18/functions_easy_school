@@ -11,6 +11,8 @@ def itc_find_str(str1, str2):
                 return i
     else:
         return -1
+    
+    
 def itc_three_str(str1, str2, str3):
     len1 = 0
     len2 = 0
@@ -18,7 +20,6 @@ def itc_three_str(str1, str2, str3):
         len1 += 1
     for i in str2:
         len2 += 1
-    start = 0
     while itc_find_str(str1, str2) != -1:
         part1 = ''
         part2 = ''
