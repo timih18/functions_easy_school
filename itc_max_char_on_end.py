@@ -3,7 +3,7 @@ def itc_max_char_on_end(string):
     len = 0
     cnt_max = 0
     for i in string:
-        len +=1
+        len += 1
     for i in range(len):
         if string[i] >= '0' and string[i] <= '9':
             cnt += 1
