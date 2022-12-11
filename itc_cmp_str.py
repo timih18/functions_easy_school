@@ -1,7 +1,6 @@
 def itc_cmp_str(string1, string2, num):
     sp1 = [char for char in string1]
     sp2 = [char for char in string2]
-    k = 0
     c1 = 0
     c2 = 0
     res = ""
